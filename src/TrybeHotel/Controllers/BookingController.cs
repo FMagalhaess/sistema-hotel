@@ -24,13 +24,21 @@ namespace TrybeHotel.Controllers
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "Client")]
         public IActionResult Add([FromBody] BookingDtoInsert bookingInsert){
-            throw new NotImplementedException();
+            try
+            {
+                var token = HttpContext.User.Identity as ClaimsIdentity;
+                string email = token!.Claims.First(c => c.Type == ClaimTypes.Email).Value;
+
+                return Created("", _repository.Add(bookingInsert, email));
+            }
+            catch (System.Exception)
+            {
+                return BadRequest(new { message = "Guest quantity over room capacity" });
+            }
         }
 
 
         [HttpGet("{Bookingid}")]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        [Authorize(Policy = "Client")]
         public IActionResult GetBooking(int Bookingid){
             throw new NotImplementedException();
         }
