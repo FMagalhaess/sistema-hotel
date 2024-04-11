@@ -26,7 +26,12 @@ namespace TrybeHotel.Controllers
         [Route("status")]
         public async Task<IActionResult> GetStatus()
         {
-            throw new NotImplementedException();
+            var response = await _geoService.GetGeoStatus();
+            if (response != null)
+            {
+                return Ok(response);
+            }
+            return NotFound();
         }
 
         // 12. Desenvolva o endpoint GET /geo/address
