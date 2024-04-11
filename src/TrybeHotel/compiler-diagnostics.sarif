@@ -97,27 +97,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 35,
-                  "endLine": 16,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS1998",
-          "level": "warning",
-          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Controllers/GeoController.cs",
                 "region": {
                   "startLine": 27,
@@ -139,12 +118,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Controllers/GeoController.cs",
                 "region": {
-                  "startLine": 22,
-                  "startColumn": 43,
-                  "endLine": 22,
-                  "endColumn": 57
+                  "startLine": 35,
+                  "startColumn": 42,
+                  "endLine": 35,
+                  "endColumn": 61
                 }
               }
             }
@@ -160,12 +139,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Controllers/GeoController.cs",
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
                 "region": {
-                  "startLine": 35,
-                  "startColumn": 42,
-                  "endLine": 35,
-                  "endColumn": 61
+                  "startLine": 16,
+                  "startColumn": 35,
+                  "endLine": 16,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Este método assíncrono não possui operadores 'await' e será executado de modo síncrono. É recomendável o uso do operador 'await' para aguardar chamadas à API desbloqueadas ou do operador 'await Task.Run(...)' para realizar um trabalho associado à CPU em um thread em segundo plano.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Services/GeoService.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 43,
+                  "endLine": 22,
+                  "endColumn": 57
                 }
               }
             }
@@ -307,6 +307,48 @@
           "locations": [
             {
               "resultFile": {
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 28,
+                  "endLine": 38,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/HotelRepository.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 25,
+                  "endLine": 39,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Desreferência de uma referência possivelmente nula.",
+          "locations": [
+            {
+              "resultFile": {
                 "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/BookingRepository.cs",
                 "region": {
                   "startLine": 59,
@@ -397,27 +439,6 @@
                   "startColumn": 34,
                   "endLine": 77,
                   "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/HotelRepository.cs",
-                "region": {
-                  "startLine": 38,
-                  "startColumn": 28,
-                  "endLine": 38,
-                  "endColumn": 97
                 }
               }
             }

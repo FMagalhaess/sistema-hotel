@@ -35,7 +35,8 @@ namespace TrybeHotel.Repository
                 Name = hotel.Name,
                 Address = hotel.Address,
                 CityId = hotel.CityId,
-                CityName = _context.Cities.Where(c => c.CityId == hotel.CityId).FirstOrDefault().Name
+                CityName = _context.Cities.Where(c => c.CityId == hotel.CityId).FirstOrDefault().Name,
+                State = _context.Cities.Where(c => c.CityId == hotel.CityId).FirstOrDefault().State
             };
         }
     }
