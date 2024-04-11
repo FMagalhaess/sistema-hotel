@@ -202,27 +202,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/HotelRepository.cs",
-                "region": {
-                  "startLine": 41,
-                  "startColumn": 28,
-                  "endLine": 41,
-                  "endColumn": 97
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Desreferência de uma referência possivelmente nula.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/BookingRepository.cs",
                 "region": {
                   "startLine": 19,
@@ -322,39 +301,18 @@
           }
         },
         {
-          "ruleId": "CS8600",
+          "ruleId": "CS8602",
           "level": "warning",
-          "message": "Conversão de literal nula ou possível valor nulo em tipo não anulável.",
+          "message": "Desreferência de uma referência possivelmente nula.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/RoomRepository.cs",
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/HotelRepository.cs",
                 "region": {
-                  "startLine": 43,
-                  "startColumn": 32,
-                  "endLine": 61,
-                  "endColumn": 52
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8603",
-          "level": "warning",
-          "message": "Possível retorno de referência nula.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/RoomRepository.cs",
-                "region": {
-                  "startLine": 62,
-                  "startColumn": 20,
-                  "endLine": 62,
-                  "endColumn": 28
+                  "startLine": 41,
+                  "startColumn": 28,
+                  "endLine": 41,
+                  "endColumn": 97
                 }
               }
             }
@@ -460,6 +418,48 @@
                   "startColumn": 34,
                   "endLine": 77,
                   "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Conversão de literal nula ou possível valor nulo em tipo não anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 32,
+                  "endLine": 61,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possível retorno de referência nula.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/filipe/Documentos/C%23/csharp-032-csharp-projeto-trybe-hotel-fase-c/src/TrybeHotel/Repository/RoomRepository.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 20,
+                  "endLine": 62,
+                  "endColumn": 28
                 }
               }
             }
